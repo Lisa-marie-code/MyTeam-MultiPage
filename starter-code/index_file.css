@@ -1,0 +1,36 @@
+.One {
+    background-color: #014E56;
+    width: 1440;
+    height: 700;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#top h3{
+    position: relative;
+    width: 195.95;
+    height: 40px;
+    left: 165;
+    top: 77px;
+    color: white;
+}
+
+#top h6 {
+    font: livvic;
+    font-weight: 600;
+    size: 18px;
+    line-height: 28px;
+    color: white;
+}
+
+.two{
+    background-color: #012F34;
+}
+
+
+#top h3, h6 {
+    margin: 0;
+    padding: 0;
+    display: inline;
+  }​
