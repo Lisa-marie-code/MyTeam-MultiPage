@@ -67,7 +67,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    background-image: url('../images/bg-pattern-about-1-mobile-nav-1.svg');
+    background-image: url('../assests/bg-pattern-about-1-mobile-nav-1.svg');
     height: 200px;
     width: 100px;
   }
@@ -110,11 +110,9 @@
   
     .nav__link {
       line-height: 1.75rem;
-    }
-  
-    .nav__link:first-child {
       margin-right: 2.5rem;
     }
+  
   }
   
   @media screen and (min-width: 69.375rem) {

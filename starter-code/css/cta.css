@@ -18,7 +18,7 @@
   .cta::after {
     content: '';
     position: absolute;
-    background-image: url('../images/bg-pattern-home-6-about-5.svg');
+    background-image: url('../assets/bg-pattern-home-6-about-5.svg');
     width: 200px;
     height: 124px;
     bottom: 0;

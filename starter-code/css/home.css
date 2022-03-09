@@ -21,7 +21,7 @@
   .hero::after {
     content: '';
     position: absolute;
-    background-image: url('../images/bg-pattern-home-2.svg');
+    background-image: url('../assests/bg-pattern-home-2.svg');
     height: 100px;
     width: 358px;
     bottom: 0;
@@ -45,7 +45,7 @@
     .hero::before {
       content: '';
       position: absolute;
-      background-image: url('../images/bg-pattern-home-1.svg');
+      background-image: url('../assets/bg-pattern-home-1.svg');
       width: 200px;
       height: 200px;
       left: -100px;
@@ -99,7 +99,7 @@
   .product::before {
     content: '';
     position: absolute;
-    background-image: url('../images/bg-pattern-home-3.svg');
+    background-image: url('../assets/bg-pattern-home-3.svg');
     top: 0;
     right: 0;
     width: 100px;
@@ -211,7 +211,7 @@
   .testimonials::before {
     content: '';
     position: absolute;
-    background-image: url('../images/bg-pattern-home-4-about-3.svg');
+    background-image: url('../assests/bg-pattern-home-4-about-3.svg');
     top: 0;
     left: 0;
     width: 147px;
@@ -221,7 +221,7 @@
   .testimonials::after {
     content: '';
     position: absolute;
-    background-image: url('../images/bg-pattern-home-5.svg');
+    background-image: url('../assets/bg-pattern-home-5.svg');
     bottom: 0;
     right: 0;
     width: 200px;
@@ -252,7 +252,7 @@
   .testimonial::before {
     content: '';
     position: absolute;
-    background-image: url('../images/icon-quotes.svg');
+    background-image: url('../assests/icon-quotes.svg');
     top: 0;
     left: 0;
     right: 0;
