@@ -3,7 +3,7 @@
     padding: 0px;
     outline: none;
     box-sizing: border-box;
-    font-family: 'Livvic', sans-serif;
+    font-family: livvic;
 }
 
 header{
@@ -69,4 +69,29 @@ nav button{
 nav button a{
     color: white;
     text-decoration: none;
+}
+
+nav h1{
+    font-family: livvic;    
+font-style: normal;
+font-weight: lighter;
+font-size: 64px;
+line-height: 100px;
+position: absolute;
+width: 350px;
+height: 100px;
+left: 0px;
+top: 200px;
+color: #FFFFFF;
+}
+
+nav h4{
+    position: absolute;
+    width: 730px;
+    height: 156px;
+    left: 240px;
+    top: 175px;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: large;
 }
