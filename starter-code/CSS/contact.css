@@ -3,7 +3,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Livvic', sans-serif;
+    font-family: 'Livvic'
 }
 header{
     width: 100%;
@@ -54,7 +54,7 @@ nav button{
     border: 2px solid white;
     background-color: #014E56;
     border-radius: 30px;
-    font-family: Livvic;
+    font-family: livvic;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
