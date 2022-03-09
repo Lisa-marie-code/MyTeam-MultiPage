@@ -1,93 +1,104 @@
 <html>
     <head>
-        <link rel = "stylesheet" href="./CSS/admin.css"> 
+        <link rel = "stylesheet" href="./css/admin.css"> 
         <title>Admin</title>
     </head>
     <body>
-               
-        <div id="overlay">
-            <div id="model">
-                <button id="close-modal-btn" onclick="closeModal()">Close Modal</button>
-                <Div id=><h1>ADD A NEW DIRECTOR</h1></Div>
-                <form action="#">
-                    <div>
-                        <input id="photo" type="file">
-                        <label for="photo"> UPLOAD PHOTO</label>
-                    </div>
-                    <div>
-                        <input id="postion" type="text" placeholder="Position">
-                    </div>
-                    <div>
-                    <input id="name" type="text" placeholder="Name">
-                    </div>
-                    <div>
-                        <button type="submit">ADD</button>
-                        <button>CANCEL</button>
-                    </div>
-                    
-                </form>
-            </div>
-        </div>
 
-        <div class="website-content">
-            <header>
-                <div id="nav">
-                    <div id="logo"> myteam</div>
-                    <div id="menu">
-                        <div>home</div>
-                        <div>about</div>
-                        <div>administration</div>
-                        <div>Contact</div>
-                    </div>
+        <header>
+            <nav>
+             <div class="myteam-logo"></div>
+                <div id="menu">
+                <ul>
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="./about.html">about us</a></li>
+                    <li><a href="./admin.html">administration</a></li>
+                </ul>
                 </div>
+            
+            <button>
+              <a href="./contact.html">
+              contact us
+            </button>
+            </nav>
+        </header>
+
+        <section>
+            <div>
                 <div>
                     <div>
+                    <h1>We have the best team</h1>
+                    </div>
+                    <div>
+                        <div></div>
+                        <p>Finding the right people and building high 
+                            performing tams can be hard. most companies
+                            aren't tapping into the abundance of global talent.
+                            We're about to change that.
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="overlay">
+                <div id="model">
+                    <button id="close-modal-btn" onclick="closeModal()">Close Modal</button>
+                    <Div id=><h1>ADD A NEW DIRECTOR</h1></Div>
+                    <form action="#">
                         <div>
-                        <h1>We have the best team</h1>
+                            <input id="photo" type="file">
+                            <label for="photo"> UPLOAD PHOTO</label>
                         </div>
                         <div>
-                            <div></div>
-                            <p>Finding the right people and building high 
-                                performing tams can be hard. most companies
-                                aren't tapping into the abundance of global talent.
-                                We're about to change that.
-                            </p>
+                            <input id="postion" type="text" placeholder="Position">
+                        </div>
+                        <div>
+                        <input id="name" type="text" placeholder="Name">
+                        </div>
+                        <div>
+                            <button type="submit">ADD</button>
+                            <button>CANCEL</button>
                         </div>
                         
-                    </div>
+                    </form>
                 </div>
-            </header>
-            
-            <div id="container">
-                <button id="show-modal-btn" onclick="showModal()">Add new director</button>
             </div>
-            <div id="ready">
-
-            </div>
-
-       
-        </div>
-        <footer>
-            <div> 
-                <H3>myteam</H3>
-                <h5>homme</h5>
-                <h5>about</h5>
-            </div>
-            <div>
-                <p>897 Hillcreat Lane
-                    Irvine, CA
-                    California 92714
-                    Call Us:949-833-7432
-                </p>
-            </div>
-            <div>
-                <div>socials</div>
-                <div><p>Copytight 2020. All Rights Reserved</p></div>
-            </div>
-        </footer> 
-        
-        <script src="admin.js">
+    
+            <div class="website-content">
+                        
+                <div id="container">
+                    <button id="show-modal-btn" onclick="showModal()">Add new director</button>
+                </div>
+                <div id="ready">
+    
+                </div>
+    
            
-        </script>
+            </div>
+            <footer>
+                <div> 
+                    <H3>myteam</H3>
+                    <h5>homme</h5>
+                    <h5>about</h5>
+                </div>
+                <div>
+                    <p>897 Hillcreat Lane
+                        Irvine, CA
+                        California 92714
+                        Call Us:949-833-7432
+                    </p>
+                </div>
+                <div>
+                    <div>socials</div>
+                    <div><p>Copytight 2020. All Rights Reserved</p></div>
+                </div>
+            </footer> 
+            
+            <script src="admin.js">
+               
+            </script>
+        </section>
+               
+
     </body>
 </html>
