@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@600;700&display=swap');
+
+:root {
+  /* COLORS */
+  --midnightGreen: #014e56;
+  --lightCoral: #f67e7e;
+  --white: #ffffff;
+  --raptureBlue: #79c8c7;
+  --policeBlue: #2c6269;
+  --jungleGreen: #004047;
+  --sacramentoGreen: #012f34;
+  --darkGreen: #002529;
+  --robinBlue: #c4fffe;
+
+  /* TEXT */
+  --font: 'Livvic', sans-serif;
+  --baseFontSize: 1.125rem;
+  --smallText: 0.9375rem;
+  --smallLineHeight: 1.5625;
+
+  --transition: all 250ms ease-in-out;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font);
+  font-weight: 600;
+  line-height: 1.75;
+  font-size: 1.125rem;
+  background: var(--midnightGreen);
+  color: var(--white);
+  overflow-x: hidden;
+}
+
+.smallText {
+  font-size: var(--smallText);
+  line-height: var(--smallLineHeight);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 6.25rem;
+  line-height: 1;
+}
+
+h1 + .small {
+  font-size: 4rem;
+  line-height: 0.875;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+h3 {
+  font-size: 1.125rem;
+  line-height: 1.75;
+}
+
+button,
+.btn {
+  cursor: pointer;
+  border-radius: 24px;
+  padding: 0.5625rem 2rem;
+  border: 2px solid var(--white);
+  background: transparent;
+  color: var(--white);
+  transition: var(--transition);
+  font-weight: 600;
+}
+
+button:hover,
+.btn:hover {
+  background: var(--white);
+  color: var(--sacramentoGreen);
+}
+
+.btn--dark {
+  border: 2px solid var(--sacramentoGreen);
+  color: var(--sacramentoGreen);
+  background: transparent;
+}
+
+.btn--dark:hover {
+  color: var(--white);
+  background-color: var(--sacramentoGreen);
+}
+
+.btn--secondary {
+  background-color: var(--white);
+  color: var(--sacramentoGreen);
+}
+
+.btn--secondary:hover {
+  background-color: var(--raptureBlue);
+  color: var(--sacramentoGreen);
+  border-color: var(--raptureBlue);
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--lightCoral);
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.container {
+  max-width: 69.375rem;
+  margin: 0 auto;
+}
+
+.accent {
+  color: var(--lightCoral);
+}
+
+.accent--2 {
+  color: var(--raptureBlue);
+}
+
+.avatar {
+  border: 2px solid var(--robinBlue);
+  border-radius: 50%;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+input,
+textarea {
+  background: none;
+  color: var(--white);
+  border: none;
+  border-bottom: solid 1px var(--white);
+  padding-bottom: 1.25rem;
+  padding-left: 0.75rem;
+  font-size: var(--smallText);
+  line-height: var(--smallLineHeight);
+  font-weight: 600;
+  width: 100%;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: var(--smallText);
+  line-height: var(--smallLineHeight);
+}
+
+textarea {
+  /* padding-bottom: 3.625rem; */
+  padding-bottom: 0;
+  /* font-size: var(--smallText); */
+  font-size: 15px;
+  line-height: var(--smallLineHeight);
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-bottom: solid 1px var(--raptureBlue);
+}
+
+form > div > input[type='text']:invalid:focus,
+form > div > input[type='email']:invalid:focus,
+form > div > textarea:invalid:focus {
+  border-color: var(--lightCoral);
+}
+
+form > div > input[type='text']:invalid:focus::placeholder,
+form > div > input[type='email']:invalid:focus::placeholder,
+form > div > textarea:invalid:focus::placeholder {
+  color: rgba(246, 126, 126, 0.6);
+}
+
+form > div > input[type='text']:invalid:focus ~ .requirements,
+form > div > input[type='email']:invalid:focus ~ .requirements,
+form > div > textarea:invalid:focus ~ .requirements {
+  margin-top: -0.875rem;
+  margin-bottom: 1rem;
+  max-height: 1rem;
+}
+
+form > div .requirements {
+  max-height: 0;
+  transition: var(--transition);
+  overflow: hidden;
+  color: var(--lightCoral);
+  font-size: 0.625rem;
+  font-style: italic;
+  padding-left: 0.75rem;
+}
