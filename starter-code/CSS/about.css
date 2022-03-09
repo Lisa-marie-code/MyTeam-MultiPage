@@ -67,5 +67,30 @@ nav button a{
 }
 
 nav h1{
-    
+    font-family: Livvic;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 100px;
+position: absolute;
+width: 350px;
+height: 100px;
+left: 0px;
+top: 200px;
+color: #FFFFFF;
+}
+
+nav h4{
+    position: absolute;
+    width: 730px;
+    height: 156px;
+    left: 240px;
+    top: 175px;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: large;
+}
+
+
+
 }
