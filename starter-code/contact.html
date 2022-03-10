@@ -9,14 +9,51 @@
   <title>Frontend Mentor | myteam website challenge - Contact</title>
 </head>
 <body>
-#
+    form {
+      margin: 0 auto;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    width: 90px;
+    text-align: right;
+  }
+  button {
+  
+    margin-left: .5em;
+  }
+  .greeting-text{
+      font-family: Raleway-Light,sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 38px;
+  }
+  .contact-color {
+      padding-left: 50px;
+      color: orange;
+  
+  }
+  #mainMenu {
+    margin: 10px;
+    width: 900px;
+    font-family: sans-serif;
+  }
+  #mainMenu p {
+    width:120px;
+    float:left;
+    margin-left:2px;
+  
 
 }
   </style>
 </head> 
 <header>
 
-<div class="row">
+  <div class="row">
 
   <div class="col-md-6" id="mainMenu">
     <p class="page-title">myteam</p>
@@ -25,27 +62,27 @@
   </div>
     <button>contact us</button>
 
-<div class="col-md-2 pt-5">
-<a class="btn btn-default float-right mr-2" href="">contact us</a>
-</div> 
+  <div class="col-md-2 pt-5">
+    <a class="btn btn-default float-right mr-2" href="">contact us</a>
+  </div> 
 
   </div>
 </header>
   <div class="row">
-<div class="col-md-12">
-  <h2 class="greeting-text">Contact</h2>
-  <h4 class="contact-color">Ask us about</h2>
-    <i class="fa fa-info-circle"></i>&nbsp;&nbsp; <span>The quality of our talent network</span><br>
-    <i class="fa fa-info-circle"></i>&nbsp;&nbsp; <span>Usage & implementation of our software</span><br>
-    <i class="fa fa-info-circle"></i>&nbsp;&nbsp; <span>How we help drive innovation</span>
-</div>
+  <div class="col-md-12">
+      <h2 class="greeting-text">Contact</h2>
+      <h4 class="contact-color">Ask us about</h2>
+      <i class="fa fa-info-circle"></i>&nbsp;&nbsp; <span>The quality of our talent network</span><br>
+      <i class="fa fa-info-circle"></i>&nbsp;&nbsp; <span>Usage & implementation of our software</span><br>
+      <i class="fa fa-info-circle"></i>&nbsp;&nbsp; <span>How we help drive innovation</span>
+  </div>
 
 
 <form>
-<div>
-  <label for="name" class="">Name</label>
-  <input type="text" id="name" name="name" required>
-</div>
+  <div>
+    <label for="name" class="">Name</label>
+    <input type="text" id="name" name="name" required>
+  </div>
 
   <div>
   <label for="emailaddress" class="">Email Address</label>
