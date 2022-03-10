@@ -1,10 +1,17 @@
+.background {
+    position: relative;
+    width: 1440px;
+    height: 2525;
+    color: #FFFFFF;
+}
+
 .layer-one {
     position: absolute;
     background-color: #014E56;
     width: 1440px;
     height: 700px;
-    left: -51px;
-    top: -12px;
+    left: 0px;
+    top: 0px;
 }
 
 #headlines {
@@ -19,17 +26,17 @@
     position: absolute;
     width: 153px;
     height: 48px;
-    left: 1020px;
+    left: 950px;
     top: 73px;
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 24px;
 }
 
-#contact .contact-us{
+.contact-us{
     position: absolute;
-    height: 28px;
-    left: 20.92%;
+    height: 48px;
+    left: 19.92%;
     right: 21.57%;
     top: calc(50% - 28px/2 -1px);
     font-family: livvic;
@@ -38,11 +45,13 @@
     font-size: 15px;
     line-height: 28px;
     color:#FFFFfF;
-    width: 88px;
-    height: 28px;
-    top: 9px;
-    left: 32px;
+    width: 140px;
+    height: 42px;
+    top: 2px;
+    left: 4.5px;
     background-color: #014E56;
+    border-radius: 24px;
+    border: 0px solid #FFFFFF;
 }
 #left-headline {
     position: absolute;
