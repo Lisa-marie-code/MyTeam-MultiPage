@@ -155,7 +155,7 @@ header.mid-content {
     color: #FFFFFF;
 }
 
-  #brief {
+#brief {
     position: absolute;
     height: 112px;
     left: 0%;
@@ -346,4 +346,17 @@ header.mid-content {
     color: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.8
+}
+
+.third-page {
+    background-color: #004047;
+    position: absolute;
+    width: 1440px;
+    height: 745px;
+    left: 0px;
+    top: 1384px;
+} 
+
+.third-page h2 {
+    
 }
