@@ -9,13 +9,13 @@
         <!-- <link rel="stylesheet" href="CSS/about.css"> -->
         <link rel = "stylesheet" href="CSS/admin.css"> 
     </head>
-    <body>
+    <body onload="pageLoad()">
                
         <div id="overlay">
             <div id="modal">
                 <div id="dir-form">
                     <div id="dir-title"><h2>ADD A NEW DIRECTOR</h2></div>
-                    <form action="#">
+                    <form id="director-form" action="#">
                         <div id="photo-div">
                             <div id="photo-input">
                             <input id="photo" type="file"> <br/>
@@ -81,7 +81,7 @@
                     <h4>BOARD OF DIRECTORS</h4>
                 </div>
                 <TAble id="tbl-directors">
-                    <tr>
+                    <!-- <tr>
                         <td>image</td>
                         <td>Arthur Clarke</td>
                         <td>Co-Founder</td>
@@ -98,7 +98,7 @@
                         <td>Kady Baker</td>
                         <td>Manager</td>
                         <td>Delete</td>
-                    </tr>
+                    </tr> -->
                 </TAble>
             </div>
             <div id="ready-contact">
