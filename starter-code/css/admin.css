@@ -138,14 +138,12 @@
   }
 
   .board__of__directors {
-    font-family: Livvic;
-    font-size: 2.7rem;
+    font-family: 'Livvic';
     font-style: normal;
     font-weight: 600;
-    line-height: 1.60rem;
-    letter-spacing: 0rem;
-    text-align: left;
-    background: #FFFFFF;  
+    font-size: 2.5rem;
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
   }
 
   .director__name {
