@@ -235,6 +235,18 @@ body{
 
 }
 
+#tbl-directors img{
+    height: 70px;
+    width: 70px;
+}
+
+#tbl-directors tr {
+    height: 70px;
+    width: 100%;
+    margin-bottom: 70px;
+    border-bottom: 5px solid F67E7E;
+}
+
 .container #ready-contact{
     width: 1440px;
     height: 200px;

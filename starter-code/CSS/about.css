@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Livvic', sans-serif;
+}
+header{
+    width: 1440px;
+    height: 517px;
+    background-color: #014E56;
+}
+nav{
+    position: absolute;
+    width: 1110px;
+    height: 48px;
+    left: 138px;
+    top: 73px;
+}
+.myteam-logo{
+    position: absolute;
+    top: 15px;
+    width: 160px;
+    height: 40px;
+    background-image: url(../assets/logo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav ul{
+    margin-left: 230px;
+    margin-top: 25px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+nav button{
+    position: absolute;
+    top: 0px;
+    left: 955px;
+    width: 153px;
+    height: 48px;
+    border: 2px solid white;
+    background-color: #014E56;
+    border-radius: 30px;
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+nav button a{
+    color: white;
+    text-decoration: none;
+}
+
+nav h1{
+    font-family: Livvic;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 100px;
+position: absolute;
+width: 350px;
+height: 100px;
+left: 0px;
+top: 200px;
+color: #FFFFFF;
+}
+
+nav h4{
+    position: absolute;
+    width: 730px;
+    height: 156px;
+    left: 240px;
+    top: 175px;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: large;
+}
