@@ -1,3 +1,7 @@
+body {
+  background: #012F34;
+}
+
 .hero {
   position: relative;
   background: #012F34;
@@ -111,9 +115,10 @@ header {
 
 /* DIRECTORS SECTION */
 .directors {
-  margin-top: 5rem;
-  margin-bottom: 10rem;
   box-sizing: border-box;
+  background: #004047;
+  padding-bottom: 14rem;
+  padding-top: 4rem;
 }
 .director__info {
   display: flex;
