@@ -1,0 +1,104 @@
+.heading {
+    position: static;
+    width: 100vw;
+    z-index: 10;
+}
+
+.headline {
+    padding: 0 1.5rem;
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headline-logo {
+    width: 128px;
+    height: 32px;
+}
+
+.nav-mobile {
+    border: none;
+    padding: 0;
+}
+
+.nav-mobile:hover {
+    background: none;
+}
+
+.switch {
+    position: relative;
+}
+
+.mobile-switch {
+    position: absolute;
+    top: -5rem;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    transform: translateX(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--transition);
+}
+
+.mobile-switch--open {
+    transform: translateX(0%);
+    opacity: 1;
+    visibility: visible;
+}
+
+.mobile-switch-space {
+    position: relative;
+    margin-left: calc(100vw - 255px);
+    background-color: var(--policeBlue);
+    height: 100vh;
+    padding: 3.5rem 1.5rem 0 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mobile-switch-space::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url('../assests/bg-pattern-about-1-mobile-nav-1.svg');
+    height: 200px;
+    width: 100px;
+}
+
+.nav-activate--x {
+    margin-bottom: 2.5rem;
+    align-self: flex-end;
+}
+
+.mobile-top {
+    margin-bottom: 1.5rem;
+    line-height: 1.75rem;
+}
+
+.hideOnMobile {
+    display: none;
+  }
+
+  @media screen and (min-width: 69.375rem) {
+    .nav__container {
+      padding: 0 6.25rem;
+      max-width: 69.375rem;
+      margin: 4.5rem auto 0 auto;
+      right: 0;
+      left: 0;
+    }
+  }
+  
+  @media screen and (min-width: 81.25rem) {
+    .nav__container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
