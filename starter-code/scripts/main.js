@@ -4,6 +4,7 @@ const mobileMenu = document.querySelector('.mobileMenu');
 const profileBtns = document.querySelectorAll('.teamMember__btn');
 const profiles = document.querySelectorAll('.teamMember');
 
+
 // NAV
 const closeMenu = () => {
   body.classList.remove('no-scroll');
