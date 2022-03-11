@@ -1,13 +1,17 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-        <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@600;700&display=swap" rel="stylesheet">
-        <title>Frontend Mentor | myteam website challenge - Admin</title>
-        <!-- <link rel="stylesheet" href="CSS/about.css"> -->
-        <link rel = "stylesheet" href="css/admin.css"> 
+        <title>My Team Multi Page - Homepage</title>
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/nav.css" />
+        <link rel="stylesheet" href="css/admin.css" />
+        <link rel="stylesheet" href="css/cta.css" />
+        <link rel="stylesheet" href="css/footer.css" />
     </head>
     <body onload="pageLoad()">
                
@@ -18,7 +22,11 @@
                     <form id="director-form" action="#">
                         <div id="photo-div">
                             <div id="photo-input">
-                            <input id="photo" type="file"> <br/>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+                                    <g fill="none" fill-rule="evenodd" transform="translate(-7)"><circle cx="44" cy="44" r="28" fill="#2C6269"/>
+                                        <path fill="#79C8C7" fill-rule="nonzero" d="M28.496 0c5.66 0 10.267 4.606 10.267 10.267v4.666a3.737 3.737 0 013.733 3.734 3.737 3.737 0 01-3.733 3.733h-.213a11.184 11.184 0 01-5.387 8.7v1.566h2.949a4.523 4.523 0 014.512 4.306l.005.212c0 .07 0 .14-.003.21l.122.007c4.216.561 7.348 4.142 7.348 8.332V56h-1.867V45.733a6.553 6.553 0 00-5.668-6.475l-.405-.025a4.573 4.573 0 01-.28.484l-4.847 7.233V56h-1.867l.001-13.044a9.388 9.388 0 01-5.6 1.844 9.39 9.39 0 01-5.6-1.843V56h-1.867v-9.05l-4.845-7.23a4.573 4.573 0 01-.282-.487l-.467.03c-3.17.426-5.606 3.21-5.606 6.47V56H7.029V45.733c0-4.19 3.132-7.77 7.288-8.326l.182-.013-.004-.22a4.52 4.52 0 014.305-4.502l.212-.005 2.95-.001v-1.534a10.995 10.995 0 01-5.187-7.266l-.055-.289a10.974 10.974 0 01-.13-.987l-.015-.19h-.212a3.738 3.738 0 01-3.729-3.535l-.005-.198a3.737 3.737 0 013.734-3.734l-.001-4.364A6.543 6.543 0 0112.633 4.9l-.004-.234c0-.516.418-.934.934-.934h.5a3.706 3.706 0 01-.5-1.866V.933c0-.515.418-.933.933-.933zM18.229 46.667c.515 0 .934.417.934.933v5.6a.933.933 0 11-1.867 0v-5.6c0-.516.418-.933.933-.933zm18.667 0c.516 0 .933.417.933.933v5.6a.932.932 0 11-1.867 0v-5.6c0-.516.418-.933.934-.933zm-.784-12.134h-2.95v1.139a.935.935 0 00.666.908l.11.025h.158c.516 0 .933.418.933.934v6.057l3.294-4.915c.256-.385.405-.827.434-1.289l.006-.199c0-1.47-1.19-2.66-2.651-2.66zm-14.15 0h-2.949a2.653 2.653 0 00-2.65 2.65 2.638 2.638 0 00.441 1.5l3.291 4.912v-6.056c0-.48.361-.873.825-.927l.11-.007h.158a.933.933 0 00.774-.926v-1.146zM31.296 32c-.572.213-1.168.38-1.783.5a10.97 10.97 0 01-5.684-.486v3.658a2.797 2.797 0 01-1.867 2.654v2.123a7.53 7.53 0 005.6 2.484c2.147 0 4.17-.901 5.6-2.485v-2.123a2.798 2.798 0 01-1.866-2.661zm1.933-20.8H21.895c-.413 2.84-2.638 4.552-3.666 5.203V19.6l.221 2.84c.023.267.06.54.107.81.883 4.971 5.646 8.297 10.616 7.415a9.328 9.328 0 007.529-8.593l.197-2.545v-3.122c-1.027-.65-3.255-2.363-3.67-5.205zm-3.526 11.473l1.32 1.32a7.27 7.27 0 01-5.168 2.14h-.16v-1.866h.16a5.414 5.414 0 003.848-1.594zm-3.008-6.22l1.734.694-1.355 3.386h1.422V22.4h-2.8a.935.935 0 01-.867-1.28l1.866-4.666zm12.068.347v2.8l-.072.933h.072c.98 0 1.786-.759 1.86-1.72l.006-.146c0-1.03-.837-1.867-1.866-1.867zm-22.399 0a1.869 1.869 0 00-1.868 1.867c0 1.03.837 1.866 1.867 1.866h.068l-.066-.861V16.8zm5.598-.933a1.867 1.867 0 110 3.733 1.867 1.867 0 010-3.733zm11.2 0a1.867 1.867 0 110 3.733 1.867 1.867 0 010-3.733zm3.733-4.668l-1.766.002c.272 1.256 1.054 2.215 1.768 2.86l-.002-2.862zm-18.666-.066v2.926c.714-.644 1.495-1.603 1.767-2.858l-.833-.001c-.317 0-.629-.023-.934-.067zm10.267-9.266H15.429c0 1.03.837 1.866 1.867 1.866a.934.934 0 010 1.867H14.59a4.675 4.675 0 004.573 3.733h17.68c-.465-4.194-4.03-7.466-8.347-7.466z"/><path d="M0 0h56v56H0z"/></g>
+                                </svg>
+                                <input id="photo" type="file">
                             </div>
                             <div id="photo-label">
                             <label for="photo" > UPLOAD PHOTO</label>
@@ -44,103 +52,134 @@
             </div>
         </div>
 
-        <div class="container">
-            <header>
-                <div id="nav">
-                    <div id="logo"> myteam</div>
-                    <div id="menu">
-                        <div>home</div>
-                        <div>about</div>
-                        <div>administration</div>
-                        <div>Contact</div>
-                    </div>
-                </div>
+        <header class='header'>
+            <nav class='nav__container'>
+              <img src="./assets/logo.svg" alt="Logo" class="nav__logoImg">
+          
+              <button class="nav__mobileMenuToggle">
+                <i><svg xmlns="http://www.w3.org/2000/svg" width="20" height="17">
+                  <g fill="#FFF" fill-rule="evenodd">
+                    <path d="M0 0h20v3H0zM0 7h20v3H0zM0 14h20v3H0z"/>
+                  </g>
+                </svg>
+              </i>
+              </button>
+          
+              
+              <div class="nav__links hideOnMobile">
                 <div>
-                    <div>
-                        <div>
-                        <h1>We have the best team</h1>
-                        </div>
-                        <div>
-                            <div></div>
-                            <p>Finding the right people and building high 
-                                performing tams can be hard. most companies
-                                aren't tapping into the abundance of global talent.
-                                We're about to change that.
-                            </p>
-                        </div>
+                  <a href="./index.html" class="nav__link">home</a>
+                  <a href="./about.html" class="nav__link">about</a>
+                  <a href="./admin.html" class="nav__link">admin</a>
+                </div>
+                <a href='./contact.html' class="btn nav__link">contact us</a>
+              </div>
+            </nav>
+          
+            <div class="mobileMenuWrapper">
+          
+              <div class="mobileMenu">
+                <div class="mobileMenu__container">
+                  <button class="nav__mobileMenuToggle mobileMenuToggle--x">
+                    <i>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17">
+                        <path fill="#FFF" fill-rule="evenodd" d="M15.01.368l2.122 2.122-6.01 6.01 6.01 6.01-2.122 2.122L9 10.622l-6.01 6.01L.868 14.51 6.88 8.5.87 2.49 2.988.368 9 6.38 15.01.37z"/>
+                      </svg>   
+                    </i>
+                  </button>
+                  <a href="./index.html" class="mobileMenu__link">home</a>
+                  <a href="./about.html" class="mobileMenu__link">about</a>
+                  <a href="./admin.html" class="mobileMenu__link">admin</a>
+                  <button class="nav__button">contact us</button>
+                </div>
+              </div>
+            </div>
+          
+        </header>
+        <section class="hero">
+            <div class="container hero__container">
+              <h1 class="hero__heading">
+                We have the</br> best
+                <span class="accent">
+                  team
+                </span>
+              </h1>
+              <p class="hero__description">
+                Finding the right people and building high performing teams can be
+                hard. Most companies aren’t tapping into the abundance of global
+                talent. We’re about to change that.
+              </p>
+            </div>
+          </section>
+          <section class="directors">
+            <div class="container directors__container">
+               <div class="directors__grid" id="directors__grid">
+                  
+                    <button class="director__btn btn--white btn" id="show-modal-btn" onclick="showModal()">
+                        Add new director
+                    </button>
+                    <h3 class="board__of__directors" >BOARD OF DIRECTORS</h3>
+                    <hr class='director__top__line'>
+                    
                         
-                    </div>
                 </div>
-            </header>
+                    
+                </div>
+            </div>
+          </section>
             
-            <div id="data-content">
-                <div>
-                    <button id="show-modal-btn" onclick="showModal()">Add new director</button>
-                </div>
-                <div id="directors">
-                    <h4>BOARD OF DIRECTORS</h4>
-                </div>
-                <TAble id="tbl-directors">
-                    <!-- <tr>
-                        <td>image</td>
-                        <td>Arthur Clarke</td>
-                        <td>Co-Founder</td>
-                        <td>Delete</td>
-                    </tr>
-                    <tr>
-                        <td>image</td>
-                        <td>Aiysha Reese</td>
-                        <td>Founder</td>
-                        <td>Delete</td>
-                    </tr>
-                    <tr>
-                        <td>image</td>
-                        <td>Kady Baker</td>
-                        <td>Manager</td>
-                        <td>Delete</td>
-                    </tr> -->
-                </TAble>
+          <section class="cta">
+            <div class="container cta__container">
+              <h2 class="cta__heading">
+                Ready to get started?
+              </h2>
+              <button class="cta__btn btn--dark btn">
+                contact us
+              </button>
             </div>
-            <div id="ready-contact">
-                <div id="ready-div">
-                    <div id="ready-svg">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200"><g fill="none" fill-rule="evenodd"><path fill="#2C6269" d="M100 100H0V0h100z"/><path fill="#014E56" d="M100 0c55.228 0 100 44.772 100 100s-44.772 100-100 100S0 155.228 0 100 44.772 0 100 0zm0 67c-18.225 0-33 14.775-33 33s14.775 33 33 33 33-14.775 33-33-14.775-33-33-33z"/><path fill="#79C8C7" d="M100 140v4H0v-4h100zm0-8v4H0v-4h100zm0-8v4H0v-4h100zm0-8v4H0v-4h100zm0-8v4H0v-4h100zm0-8v4H0v-4h100zM4 40v4H0v-4h4zm7 0v4H7v-4h4zm7 0v4h-4v-4h4zm7 0v4h-4v-4h4zm7 0v4h-4v-4h4zm7 0v4h-4v-4h4zm7 0v4h-4v-4h4zm7 0v4h-4v-4h4zM4 32v4H0v-4h4zm7 0v4H7v-4h4zm7 0v4h-4v-4h4zm7 0v4h-4v-4h4zm7 0v4h-4v-4h4zm7 0v4h-4v-4h4zm7 0v4h-4v-4h4zm7 0v4h-4v-4h4zM4 24v4H0v-4h4zm7 0v4H7v-4h4zm7 0v4h-4v-4h4zm7 0v4h-4v-4h4zm7 0v4h-4v-4h4zm7 0v4h-4v-4h4zm7 0v4h-4v-4h4zm7 0v4h-4v-4h4zm-35-8v4h-4v-4h4zm14 0v4h-4v-4h4zm-7 0v4h-4v-4h4zm21 0v4h-4v-4h4zm-7 0v4h-4v-4h4zM4 16v4H0v-4h4zm7 0v4H7v-4h4zm42 0v4h-4v-4h4zM4 8v4H0V8h4zm7 0v4H7V8h4zm7 0v4h-4V8h4zm7 0v4h-4V8h4zm7 0v4h-4V8h4zm7 0v4h-4V8h4zm7 0v4h-4V8h4zm7 0v4h-4V8h4zM4 0v4H0V0h4zm7 0v4H7V0h4zm7 0v4h-4V0h4zm7 0v4h-4V0h4zm7 0v4h-4V0h4zm7 0v4h-4V0h4zm7 0v4h-4V0h4zm7 0v4h-4V0h4z"/></g></svg>
-                    </div>
-                    <div id="ready-text">
-                    <H3>Ready to get started?</H3>
-                    </div>
-                </div>
-                <div id="contact-div">
-                    <button id="contact-btn">Contact us</button>
-                </div>
+          </section>
 
+          <footer>
+            <div class="footer__container">
+              <img src="./assets/logo.svg" alt="Logo" class="footer__logo" />
+              <div class="footer__links">
+                <a href="./index.html" class="footer__link smallText">home</a>
+                <a href="./about.html" class="footer__link smallText">about</a>
+                <a href="./admin.html" class="footer__link smallText">admin</a>
+              </div>
+              <div class="footer__address smallText">
+                <p>
+                  987 Hillcrest Lane
+                </p>
+                <p>
+                  Irvine, CA
+                </p>
+                <p>
+                  California 92714
+                </p>
+                <p>
+                  Call Us : 949-833-7432
+                </p>
+              </div>
+              <div class="footer__socials">
+                <a href="#" class="footer__socialIcon smallText">
+                  <img src="./assets/icon-facebook.svg" alt="Facebook" />
+                </a>
+                <a href="#" class="footer__socialIcon smallText">
+                  <img src="./assets/icon-pinterest.svg" alt="Pinterest" />
+                </a>
+                <a href="#" class="footer__socialIcon smallText">
+                  <img src="./assets/icon-twitter.svg" alt="Twitter" />
+                </a>
+              </div>
+              <p class="footer__copyright smallText">
+                Copyright 2022. All Rights Reserved
+              </p>
             </div>
-
-            <footer>
-                <div id="compamy-address">
-                    <div id="company"> 
-                        <H3>myteam</H3>
-                        <h5>home</h5>
-                        <h5>about</h5>
-                    </div>
-                    <div id="address">
-                        <p>897 Hillcreat Lane
-                            Irvine, CA
-                            California 92714
-                            Call Us:949-833-7432
-                        </p>
-                    </div>
-                </div>    
-                <div id="copy-social">
-                    <div>socials</div>
-                    <div id="coppyright"><p>Copytight 2020. All Rights Reserved</p></div>
-                </div>
-            </footer> 
-        </div>
+          </footer>
         
         
-        <script src="admin.js">
-           
-        </script>
+        
+        <script src='admin.js'></script>
     </body>
 </html>
