@@ -1,0 +1,321 @@
+.hero {
+    position: relative;
+    background: var(--midnightGreen);
+  }
+  
+  .hero__container {
+    padding: 10rem 1.5rem 12.25rem;
+    text-align: center;
+  }
+  
+  .hero__heading {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero__description {
+    font-size: var(--smallText);
+    line-height: var(--smallLineHeight);
+  }
+  
+  .hero::after {
+    content: '';
+    position: absolute;
+    background-image: url('../assests/bg-pattern-home-2.svg');
+    height: 100px;
+    width: 358px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  
+  @media screen and (min-width: 40rem) {
+    .hero__heading {
+      font-size: 4rem;
+      line-height: 3.5rem;
+    }
+  
+    .hero__container {
+      padding: 14rem 9.75rem;
+    }
+  }
+  
+  @media screen and (min-width: 69.375rem) {
+    .hero::before {
+      content: '';
+      position: absolute;
+      background-image: url('../assets/bg-pattern-home-1.svg');
+      width: 200px;
+      height: 200px;
+      left: -100px;
+      top: 10.75rem;
+    }
+    .hero__container {
+      padding: 15.625rem 6.25rem;
+      max-width: 69.375rem;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-gap: 1rem;
+      text-align: left;
+    }
+  
+    .hero__heading {
+      font-size: 6.25rem;
+      line-height: 1;
+      margin-bottom: 0;
+    }
+  
+    .hero__description {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      font-size: var(--bodyText);
+    }
+  
+    .hero__description::before {
+      content: '';
+      width: 3.125rem;
+      height: 0.25rem;
+      background: var(--raptureBlue);
+    }
+  }
+  
+  @media screen and (min-width: 81.25rem) {
+    .hero__container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  /* PRODUCT SECTION */
+  .product {
+    background: var(--sacramentoGreen);
+    position: relative;
+  }
+  
+  .product::before {
+    content: '';
+    position: absolute;
+    background-image: url('../assets/bg-pattern-home-3.svg');
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 244px;
+  }
+  
+  .product__container {
+    padding: 4rem 1.5rem;
+  }
+  
+  .product__heading {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 2rem;
+    margin-right: 5.5rem;
+    margin-bottom: 3.5rem;
+  }
+  
+  .product__heading::before {
+    content: '';
+    width: 3.125rem;
+    height: 0.25rem;
+    background: var(--lightCoral);
+    margin-bottom: 2rem;
+  }
+  
+  .product__feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .feature__icon {
+    margin-bottom: 1rem;
+  }
+  
+  .feature__heading {
+    color: var(--lightCoral);
+    margin-bottom: 0.5rem;
+  }
+  
+  .feature__description {
+    font-size: var(--smallText);
+    line-height: var(--smallLineHeight);
+  }
+  
+  @media screen and (min-width: 48rem) {
+    .product__container {
+      padding: 6.25rem 6rem;
+    }
+  
+    .product__heading {
+      margin-bottom: 4rem;
+    }
+  
+    .product__feature {
+      flex-direction: row;
+      text-align: left;
+    }
+  
+    .feature__icon {
+      margin-right: 1.5rem;
+    }
+  
+    .feature__heading {
+      margin-bottom: 1rem;
+    }
+  }
+  
+  @media screen and (min-width: 69.375rem) {
+    .product::before {
+      top: unset;
+      bottom: 0;
+    }
+    .product__container {
+      padding: 8.75rem 6.25rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 7.75rem;
+    }
+  
+    .product__heading {
+      margin: 0;
+      justify-content: flex-start;
+      font-size: 3rem;
+    }
+  
+    .product__heading::before {
+      margin-bottom: 3.375rem;
+    }
+  }
+  
+  @media screen and (min-width: 81.25rem) {
+    .product__container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  /* TESTIMONIALS SECTION */
+  .testimonials {
+    position: relative;
+  }
+  
+  .testimonials::before {
+    content: '';
+    position: absolute;
+    background-image: url('../assests/bg-pattern-home-4-about-3.svg');
+    top: 0;
+    left: 0;
+    width: 147px;
+    height: 100px;
+  }
+  
+  .testimonials::after {
+    content: '';
+    position: absolute;
+    background-image: url('../assets/bg-pattern-home-5.svg');
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 100px;
+  }
+  
+  .testimonials__container {
+    padding: 8.75rem 1.5rem;
+    text-align: center;
+  }
+  
+  .testimonials__heading {
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 3rem;
+  }
+  
+  .testimonial {
+    margin-bottom: 3rem;
+    position: relative;
+    width: 100%;
+  }
+  
+  .testimonial:last-child {
+    margin-bottom: 0;
+  }
+  
+  .testimonial::before {
+    content: '';
+    position: absolute;
+    background-image: url('../assests/icon-quotes.svg');
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 67px;
+    height: 56px;
+    z-index: -1;
+  }
+  
+  .testimonial__quote {
+    font-size: var(--smallText);
+    line-height: var(--smallLineHeight);
+    margin-bottom: 1rem;
+    padding-top: 2.25rem;
+  }
+  
+  .testimonial__name {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: var(--raptureBlue);
+  }
+  
+  .testimonial__title {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial__avatar {
+    width: 3.875rem;
+  }
+  
+  @media screen and (min-width: 40rem) {
+    .testimonials__container {
+      padding: 6.25rem 6rem;
+    }
+  }
+  
+  @media screen and (min-width: 69.375rem) {
+    .testimonials__container {
+      padding: 8.74rem 6.25rem;
+    }
+  
+    .testimonials__heading {
+      font-size: 3rem;
+      padding-left: 6rem;
+      padding-right: 6rem;
+      margin-bottom: 3.5rem;
+      line-height: 1;
+    }
+  
+    .testimonials__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 1.875rem;
+    }
+  }
+  
+  @media screen and (min-width: 81.25rem) {
+    .testimonials__container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
