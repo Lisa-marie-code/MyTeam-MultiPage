@@ -59,26 +59,26 @@ profileBtns.forEach(btn => {
 
 
 // // Directors Object
-const directors = [{
-    id: 1,
-    name: "Nikita Marks",
-    title: "Founder & CEO",
-    dp: "./assets/avatar-nikita.jpg",
-    quote: "It always amazes me how much talent there is in every corner of the globe."
-},
-{
-    id: 2,
-    name: "Cristian Duncan",
-    title: "Co-founder & COO",
-    dp: "./assets/avatar-christian.jpg",
-    quote: "Distributed teams required unique processes. You need to approach work in a new way."
-}
-]
+// const directors = [{
+//     id: 1,
+//     name: "Nikita Marks",
+//     title: "Founder & CEO",
+//     dp: "./assets/avatar-nikita.jpg",
+//     quote: "It always amazes me how much talent there is in every corner of the globe."
+// },
+// {
+//     id: 2,
+//     name: "Cristian Duncan",
+//     title: "Co-founder & COO",
+//     dp: "./assets/avatar-christian.jpg",
+//     quote: "Distributed teams required unique processes. You need to approach work in a new way."
+// }
+// ]
 
-const teamMemberName = document.querySelector(".teamMember__name");
-const teamMemberTitle = document.querySelector(".teamMember__title");
-const teamMemberAvatar = document.querySelector(".teamMember__avatar");
-const teamMemberQuote = document.querySelector(".teamMember__quote");
+// const teamMemberName = document.querySelector(".teamMember__name");
+// const teamMemberTitle = document.querySelector(".teamMember__title");
+// const teamMemberAvatar = document.querySelector(".teamMember__avatar");
+// const teamMemberQuote = document.querySelector(".teamMember__quote");
 
 // const displayDir = async () => {
 //     for(let i = 0; i < directors.length; i++) {
@@ -96,14 +96,14 @@ const teamMemberQuote = document.querySelector(".teamMember__quote");
 
 // displayDir();
 
-directors.map(director => {
-    teamMemberName.innerHTML = director.name;
-    teamMemberTitle.innerHTML = director.title;
-    teamMemberAvatar.src = director.dp;
-    teamMemberQuote.innerHTML = director.quote;
-    let newDirector = document.querySelector(".teamMember__container").cloneNode(true);
-    document.querySelector(".teamMembers").appendChild(newDirector);
-})
+// directors.map(director => {
+//     teamMemberName.innerHTML = director.name;
+//     teamMemberTitle.innerHTML = director.title;
+//     teamMemberAvatar.src = director.dp;
+//     teamMemberQuote.innerHTML = director.quote;
+//     let newDirector = document.querySelector(".teamMember__container").cloneNode(true);
+//     document.querySelector(".teamMembers").appendChild(newDirector);
+// })
 
 
 // let teamMember = document.querySelector(".teamMember__container");
