@@ -1,4 +1,22 @@
+.contact {
+    position: relative;
+  }
+  
+  .contact::after {
+    content: '';
+    position: absolute;
+    background-image: url('../images/bg-pattern-contact-2.svg');
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 112px;
+  }
 
+  .contact__container {
+    padding: 10rem 1.5rem 5.5rem;
+    text-align: center;
+  }
+  
 *{
     margin: 0px;
     padding: 0px;
@@ -81,11 +99,6 @@ label {
 button {
 
   margin-left: .5em;
-}
-body {
-    background-color: ;
-}
-
 }
 .greeting-text{
     font-family: Raleway-Light,sans-serif;
