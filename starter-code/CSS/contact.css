@@ -136,30 +136,7 @@
       }
 *{
     
-.myteam-logo{
-    position: absolute;
-    top: 15px;
-    width: 160px;
-    height: 40px;
-    background-image: url(../assets/logo.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-nav ul{
-    margin-left: 230px;
-    margin-top: 25px;
-}
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    
-}
-nav ul li a{
-    text-decoration: none;
-    font-family: Livvic;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
+
     line-height: 28px;
     color: #FFFFFF;
     padding: 20px;
