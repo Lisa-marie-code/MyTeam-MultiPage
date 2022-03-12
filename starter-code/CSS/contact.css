@@ -104,7 +104,29 @@
         line-height: 6.25rem;
         margin-bottom: 1rem;
       }
-      
+    
+      .contact__subheading {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-bottom: 2rem;
+      }
+    
+      .contact__question {
+        margin-bottom: 0.5rem;
+      }
+    
+      .contact__questionImg {
+        width: 4.5rem;
+      }
+    
+      form textarea {
+        height: 5.25rem;
+      }
+    
+      .form__btn {
+        font-size: 1.125rem;
+      }
+    }
 *{
     margin: 0px;
     padding: 0px;
