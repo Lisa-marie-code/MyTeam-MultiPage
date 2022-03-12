@@ -82,6 +82,11 @@ button {
 
   margin-left: .5em;
 }
+body {
+    background-color: ;
+}
+
+}
 .greeting-text{
     font-family: Raleway-Light,sans-serif;
     font-style: normal;
@@ -104,3 +109,6 @@ button {
   float:left;
   margin-left:2px;
 }
+.footer__copyright {
+    color: rgba(255, 255, 255, 0.6);
+  }
