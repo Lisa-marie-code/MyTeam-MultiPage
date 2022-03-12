@@ -286,6 +286,22 @@
     /* display: none; */
  }
 
+ #addDirPhoto {
+  /* display: none; */
+ }
+
+ #initialPhoto {
+   width: 100px;
+   height: 100px;
+ }
+
+
+ #addDirPhotoLabel {
+   /* cursor:pointer; */
+   width: 300px;
+   height: 300px;
+ }
+
  #photo-label{
     width: 100%;
     height: 20%;
@@ -306,7 +322,7 @@
 
  }
 
- #postion{
+ #position{
     width: 100%;
     height: 50px;
     background-color: #004047;
@@ -329,7 +345,7 @@
     font-size: 25px;
     margin-top: 50px;
     border: 0px;
-    place
+    
 
  }
 
@@ -350,7 +366,7 @@
  }
 
 
-#close-modal-btn {
+  #close-modal-btn {
     height: 50px;
     width: 120px;
     border-radius: 15px 15px 15px 15px;
@@ -364,4 +380,6 @@
 
     /* display: none; */
 
-}
+    }
+
+  
