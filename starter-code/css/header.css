@@ -2,36 +2,36 @@
     position: static;
     width: 100vw;
     z-index: 10;
-}
-
-.headline {
+  }
+  
+  .myteam {
     padding: 0 1.5rem;
     margin-top: 3rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.headline-logo {
+  }
+  
+  .myteamImg {
     width: 128px;
     height: 32px;
-}
-
-.nav-mobile {
+  }
+  
+  .nav-mobile {
     border: none;
     padding: 0;
-}
-
-.nav-mobile:hover {
+  }
+  
+  .nav-mobile:hover {
     background: none;
-}
-
-.switch {
+  }
+  
+  .mobileMenu-outline {
     position: relative;
-}
-
-.mobile-switch {
+  }
+  
+  .mobileMenu {
     position: absolute;
     top: -5rem;
     left: 0;
@@ -43,15 +43,15 @@
     opacity: 0;
     visibility: hidden;
     transition: var(--transition);
-}
-
-.mobile-switch--open {
+  }
+  
+  .mobileMenu--open {
     transform: translateX(0%);
     opacity: 1;
     visibility: visible;
-}
-
-.mobile-switch-space {
+  }
+  
+  .mobileMenu-set {
     position: relative;
     margin-left: calc(100vw - 255px);
     background-color: var(--policeBlue);
@@ -60,8 +60,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-}
-.mobile-switch-space::after {
+  }
+  
+  .mobileMenu-set::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -69,24 +70,53 @@
     background-image: url('../assests/bg-pattern-about-1-mobile-nav-1.svg');
     height: 200px;
     width: 100px;
-}
-
-.nav-activate--x {
+  }
+  
+  .mobile--x {
     margin-bottom: 2.5rem;
     align-self: flex-end;
-}
-
-.mobile-top {
+  }
+  
+  .mobileMenu-tool {
     margin-bottom: 1.5rem;
     line-height: 1.75rem;
-}
-
-.hideOnMobile {
+  }
+  
+  .hideOnMobile {
     display: none;
   }
-
+  
+  @media screen and (min-width: 40rem) {
+    .nav-mobile,
+    .mobileMenu {
+      display: none;
+    }
+  
+    .myteam {
+      padding: 0 2.5rem;
+      margin-top: 4rem;
+    }
+  
+    .myteamImg{
+      margin-right: 3rem;
+    }
+  
+    .nav-tools {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .nav-tool {
+      line-height: 1.75rem;
+      margin-right: 2.5rem;
+    }
+  
+  }
+  
   @media screen and (min-width: 69.375rem) {
-    .nav__container {
+    .myteam {
       padding: 0 6.25rem;
       max-width: 69.375rem;
       margin: 4.5rem auto 0 auto;
@@ -96,7 +126,7 @@
   }
   
   @media screen and (min-width: 81.25rem) {
-    .nav__container {
+    .myteam {
       padding-left: 0;
       padding-right: 0;
     }
