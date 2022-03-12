@@ -30,7 +30,25 @@
     color: var(--lightCoral);
     margin-bottom: 2.5rem;
   }
+  .contact__question {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
   
+  .contact__question:last-child {
+    margin-bottom: 0;
+  }
+  
+  .contact__questionImg {
+    margin-right: 1.5rem;
+  }
+  
+  .contact__form {
+    text-align: left;
+  }
 *{
     margin: 0px;
     padding: 0px;
