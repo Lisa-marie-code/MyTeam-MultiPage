@@ -49,6 +49,34 @@
   .contact__form {
     text-align: left;
   }
+
+  .form__input {
+    margin-bottom: 1.5rem;
+  }
+  
+  @media screen and (min-width: 40rem) {
+    .contact::before {
+      content: '';
+      position: absolute;
+      background-image: url('../images/bg-pattern-about-2-contact-1.svg');
+      height: 200px;
+      width: 200px;
+      left: -100px;
+      top: 224px;
+    }
+  
+    .contact::after {
+      height: 225px;
+    }
+  
+    .contact__container {
+      padding: 14rem 7rem 7rem;
+    }
+  
+    .contact__heading {
+      font-size: 4rem;
+      margin-bottom: 1.5rem;
+    }
 *{
     margin: 0px;
     padding: 0px;
