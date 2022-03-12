@@ -137,60 +137,10 @@
 *{
     
 
-    line-height: 28px;
-    color: #FFFFFF;
-    padding: 20px;
-}
-nav button{
-    position: absolute;
-    top: 0px;
-    left: 955px;
-    width: 153px;
-    height: 48px;
-    border: 2px solid white;
-    background-color: #014E56;
-    border-radius: 30px;
-    font-family: livvic;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 28px;
-    color: #FFFFFF;
-}
-nav button a{
-    color: white;
-    text-decoration: none;
+    
 }
 
-form {
-    margin: 0 auto;
-}
-
-form div + div {
-  margin-top: 1em;
-}
-
-label {
-  width: 90px;
-  text-align: right;
-}
-button {
-
-  margin-left: .5em;
-}
-.greeting-text{
-    font-family: Raleway-Light,sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 38px;
-}
-.contact-color {
-    padding-left: 50px;
-    color: orange;
-
-}
-#mainMenu {
+f
   margin: 10px;
   width: 900px;
   font-family: sans-serif;
