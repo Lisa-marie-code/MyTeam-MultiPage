@@ -61,7 +61,7 @@
   .contact::before {
     content: '';
     position: absolute;
-    background-image: url('../images/bg-pattern-about-2-contact-1.svg');
+    background-image: url('../assets/bg-pattern-about-2-contact-1.svg');
     height: 200px;
     width: 200px;
     left: -100px;
