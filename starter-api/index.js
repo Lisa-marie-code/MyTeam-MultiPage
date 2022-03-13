@@ -11,9 +11,16 @@ app.use(express.json()) // this helps use to acces the req.body in json
 
 app.use(
     cors({
-        origin: "*",
+        origin: "http://127.0.0.1:5502",
+        // methods: ["GET", "POST", "PUT", "DELETE"]
     })
 )
+
+// app.use(function (req, res, next) {
+//     res.header("Access-Control-Allow-Origin", "*");
+//     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+//     next();
+// });
 
 
 // Create a Director
