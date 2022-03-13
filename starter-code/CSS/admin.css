@@ -466,9 +466,9 @@
     /* display: none; */
  }
 
- #addDirPhoto {
-  /* display: none; */
- }
+ /* #addDirPhoto {
+  display: none;
+ } */
 
  #initialPhoto {
    width: 100px;
