@@ -1,0 +1,563 @@
+  body {
+    background: #012F34;
+  }
+
+.hero {
+    position: relative;
+    background: #012F34;
+  }
+  
+  header {
+    background: #012F34;
+  }
+
+  .hero__container {
+    padding: 10rem 1.5rem 12.25rem;
+    text-align: center;
+  }
+  
+  .hero__heading {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero__description {
+    font-size: var(--smallText);
+    line-height: var(--smallLineHeight);
+  }
+  
+  .hero::after {
+    content: '';
+    position: absolute;
+    background-image: url('../assests/bg-pattern-home-2.svg');
+    height: 100px;
+    width: 358px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  
+  @media screen and (min-width: 40rem) {
+    .hero__heading {
+      font-size: 4rem;
+      line-height: 3.5rem;
+    }
+  
+    .hero__container {
+      padding: 14rem 9.75rem;
+    }
+  }
+  
+  @media screen and (min-width: 69.375rem) {
+    .hero::before {
+      content: '';
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      left: -100px;
+      top: 10.75rem;
+    }
+    .hero__container {
+      padding: 15.625rem 6.25rem;
+      max-width: 69.375rem;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-gap: 1rem;
+      text-align: left;
+    }
+  
+    .hero__heading {
+      font-size: 6.25rem;
+      line-height: 1;
+      margin-bottom: 0;
+    }
+  
+    .hero__description {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      font-size: var(--bodyText);
+    }
+  
+    .hero__description::before {
+      content: '';
+      width: 3.125rem;
+      height: 0.25rem;
+      background: var(--raptureBlue);
+    }
+  }
+  
+  @media screen and (min-width: 81.25rem) {
+    .hero__container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+
+  
+  /* @media screen and (min-width: 48rem) {
+    .directors__grid {
+      background: black;
+      padding-left: 5rem;
+      font-size: 2rem;
+    }
+  }
+  
+  @media screen and (min-width: 69.375rem) {
+    .directors__grid {
+      background: green;
+      padding-left: 2rem;
+    }
+  }
+  
+  @media screen and (min-width: 81.25rem) {
+    .directors__grid {
+      background: red;
+    }
+  } */
+
+
+  /* Phone Portrait*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .director__name {
+    font-size: 0.5em;
+    text-align: center;
+  }
+
+  .director__btn {
+    margin-left: 1.5rem;
+  }
+
+  .board__of__directors {
+    text-align: center;
+  }
+
+  .director__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    line-height: 1.75rem;
+  }
+
+  .directors__grid svg {
+    display: none;
+  }
+
+  .director__role {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .delete__director {
+    margin-top: 2rem;
+  }
+
+  .director__avatar {
+    margin-bottom: 1rem;
+  }
+
+  .director__bottom__line {
+    margin-top: 2rem;
+    margin-left: 4rem;
+  }
+  
+  .director__btn {
+    margin-left: 9rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .director__name {
+    font-size: 0.5em;
+    text-align: center;
+  }
+
+  .director__btn {
+    margin-left: 1.5rem;
+  }
+
+  .board__of__directors {
+    text-align: center;
+  }
+
+  .director__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    line-height: 1.75rem;
+  }
+
+  .directors__grid svg {
+    display: none;
+  }
+
+  .director__role {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .delete__director {
+    margin-top: 2rem;
+  }
+
+  .director__avatar {
+    margin-bottom: 1rem;
+  }
+
+  .director__bottom__line {
+    margin-top: 2rem;
+    margin-left: 4rem;
+  }
+  
+  .director__btn {
+    margin-left: 4rem;
+  }
+}
+
+
+/* Tablet Portrait*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .director__name {
+    font-size: 0.5em;
+    text-align: center;
+  }
+
+  .director__btn {
+    margin-left: 1.5rem;
+  }
+
+  .board__of__directors {
+    text-align: center;
+  }
+
+  .director__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    line-height: 1.75rem;
+  }
+
+  .directors__grid svg {
+    display: none;
+  }
+
+  .director__role {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .delete__director {
+    margin-top: 2rem;
+  }
+
+  .director__avatar {
+    margin-bottom: 1rem;
+  }
+
+  .director__bottom__line {
+    margin-top: 2rem;
+    margin-left: 4rem;
+  }
+  
+  .director__btn {
+    margin-left: 4rem;
+  }
+}
+
+
+/* Laptops and desktops*/
+@media (min-width: 1160px) and (max-width: 1280px) {
+  .director__avatar {
+    width: 3.875rem;
+    margin-left: -3.5rem;
+  }
+
+  .director__bottom__line {
+    margin-top: -1rem;
+    margin-left: 7rem;
+  }
+
+}
+  
+  
+/* DIRECTORS SECTION */
+  .directors {
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+  }
+  .director__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  .director__avatar {
+    width: 3.875rem;
+  }
+  
+  .director__btn {
+      margin-bottom: 3rem;
+  }
+
+  .director__top__line {
+      height: 0.02rem;
+      margin-left: -6rem;
+      margin-right: -6rem;
+  }
+
+  .director__bottom__line {
+      margin-left: 10rem;
+      margin-right: 3.5rem;
+      margin-top: -1rem;
+  }
+
+  .board__of__directors {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .director__name {
+    width: 21.875rem;
+    height: 1.75rem;
+    font-family: Livvic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.8rem;
+    line-height: 1.75rem;
+    /* identical to box height, or 58% */ 
+    color: #79C8C7;  
+  }
+
+  .director__role {
+    width: 16.18rem;
+    height: 1.125rem;
+    font-family: Livvic;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 2.3rem;
+    line-height: 1.125rem;
+    /* identical to box height, or 38% */
+    color: #FFFFFF;
+  }
+
+  .delete__director {
+    width: 9rem;
+    height: 1.2rem;
+    font-family: Livvic;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 2.6rem;
+    line-height: 1.125rem;
+    /* identical to box height, or 38% */
+    color: #FFFFFF;
+  }
+
+  /* .director__avatar {
+    margin-left: -3.5rem;
+  }
+  @media screen and (min-width: 40rem) {
+  
+  }
+  
+  @media screen and (min-width: 69.375rem) {
+  }
+   
+  @media screen and (min-width: 81.25rem) {
+ 
+  } */
+  
+  /* pop-up form style */
+  #overlay{
+    display: none; 
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+ }
+
+ #overlay  #modal{
+     
+    background-color: #004047;
+    border-radius: 15px 15px;
+    height: 700px;
+
+    max-width: 500px;
+    /* height:300px; */
+    margin: auto;
+    /* background-color: white; */
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    /* padding: 0px 0px 0px 0px; */
+ }
+
+ #dir-form{
+    width: 80%;
+    height: 80%;
+    /* background-color: blue; */
+    margin: 10% 10% 10% 10%;
+ }
+
+ #dir-title{
+    color: FFFFFF;
+    width: 100%;
+    height: 20%;
+    /* position:absolute; */
+    /* margin: 80px 80px 80px 80px; */
+    font-size: 18px; 
+    /* padding-top: 50px; */
+
+    /* background-color: green; */
+    /* display: none; */
+ }
+
+ #modal form{
+    width: 100%;
+    /* position: absolute; */
+    /* margin: 170 80; */
+    height: 80%;
+    /* background-color: yellow; */
+    /* display: none; */
+
+ }
+
+ 
+ #photo-div{
+    width: 100%;
+    /* height: 100px; */
+    height: 40%;
+    /* background-color: brown; */
+
+ }
+
+ #postion-name-div{
+    width: 100%;
+    height: 40%;
+    /* background-color: black; */
+ }
+
+ #add-cancel{
+    width: 100%;
+    /* height: 70px; */
+    /* margin: 50 0; */
+    height:20%;
+    /* background-color: red; */
+ }
+
+ #photo-input{
+    width: 100%;
+    height: 80%;
+    /* background-color: white; */
+    /* display: none; */
+ }
+
+ /* #addDirPhoto {
+  display: none;
+ } */
+
+ #initialPhoto {
+   width: 100px;
+   height: 100px;
+ }
+
+
+ #addDirPhotoLabel {
+   /* cursor:pointer; */
+   width: 300px;
+   height: 300px;
+ }
+
+ #photo-label{
+    width: 100%;
+    height: 20%;
+    color: FFFFFF;
+    font-size: 12px; 
+    margin-top: 30px;
+    /* background-color: orange; */
+    /* display: none; */
+ }
+
+
+ #position-div {
+    width: 100%;
+    height: 50%;
+    /* background-color: pink; */
+    /* margin: 20px 0; */
+    /* display: none; */
+
+ }
+
+ #position{
+    width: 100%;
+    height: 50px;
+    background-color: #004047;
+    font-size: 25px;
+    margin-top: 50px;
+    border: 0px;
+
+ }
+
+ #overlay #modal form #postion-name-div #name-div{
+    width: 100%;
+    height: 50%;
+    /* background-color: orangered; */
+}
+
+ #name{
+    width: 100%;
+    height: 50px;
+    background-color: #004047;
+    font-size: 25px;
+    margin-top: 50px;
+    border: 0px;
+    
+
+ }
+
+
+
+ #add-btn{
+    background-color: #79C8C7;
+    height: 50px;
+    width: 120px;
+    border-radius: 15px 15px 15px 15px;
+    color: FFFFFF;
+    font-size: 18px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 60px;
+    /* display: none; */
+
+ }
+
+
+  #close-modal-btn {
+    height: 50px;
+    width: 120px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #F67E7E;
+    color: FFFFFF;
+    font-size: 18px;
+    float: right;
+    margin-top: 70px;
+    margin-right: 60px;
+    padding-right: 100px;
+
+    }
+
+  
