@@ -1,0 +1,198 @@
+.hero {
+  position: relative;
+  background: #012F34;
+}
+
+header {
+  background: #012F34;
+}
+
+.hero__container {
+  padding: 10rem 1.5rem 12.25rem;
+  text-align: center;
+}
+
+.hero__heading {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero__description {
+  font-size: var(--smallText);
+  line-height: var(--smallLineHeight);
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  background-image: url('../assests/bg-pattern-home-2.svg');
+  height: 100px;
+  width: 358px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 40rem) {
+  .hero__heading {
+    font-size: 4rem;
+    line-height: 3.5rem;
+  }
+
+  .hero__container {
+    padding: 14rem 9.75rem;
+  }
+}
+
+@media screen and (min-width: 69.375rem) {
+  .hero::before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: -100px;
+    top: 10.75rem;
+  }
+  .hero__container {
+    padding: 15.625rem 6.25rem;
+    max-width: 69.375rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1rem;
+    text-align: left;
+  }
+
+  .hero__heading {
+    font-size: 6.25rem;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+
+  .hero__description {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: var(--bodyText);
+  }
+
+  .hero__description::before {
+    content: '';
+    width: 3.125rem;
+    height: 0.25rem;
+    background: var(--raptureBlue);
+  }
+}
+
+@media screen and (min-width: 81.25rem) {
+  .hero__container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+
+/* DIRECTORS SECTION */
+.directors {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+  box-sizing: border-box;
+}
+
+.directors__container {
+  padding-left: 3rem;
+  padding-bottom: 5rem;
+}
+
+.director__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.director__avatar {
+  width: 3.875rem;
+  margin-left: -3.5rem;
+}
+
+.director__btn {
+    margin-bottom: 3rem;
+}
+
+.director__top__line {
+      height: 0.02rem;
+      margin-left: -6rem;
+      margin-right: -6rem;
+}
+
+.director__bottom__line {
+    margin-left: 7rem;
+    margin-right: 3.5rem;
+    margin-top: -1rem;
+    border: 0.038rem solid #F67E7E;
+}
+
+.board__of__directors {
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.director__name {
+  width: 21.875rem;
+  height: 1.75rem;
+  font-family: Livvic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.8rem;
+  line-height: 1.75rem;
+  /* identical to box height, or 58% */ 
+  color: #79C8C7;  
+}
+
+.director__role {
+  width: 16.18rem;
+  height: 1.125rem;
+  font-family: Livvic;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 2.3rem;
+  line-height: 1.125rem;
+  /* identical to box height, or 38% */
+  color: #FFFFFF;
+}
+
+.delete__director {
+  width: 9rem;
+  height: 1.2rem;
+  font-family: Livvic;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 2.6rem;
+  line-height: 1.125rem;
+  /* identical to box height, or 38% */
+  color: #FFFFFF;
+}
+
+
+@media screen and (min-width: 48rem) {
+
+}
+
+@media screen and (min-width: 69.375rem) {
+
+
+}
+
+@media screen and (min-width: 81.25rem) {
+
+
+}
+
