@@ -7,11 +7,11 @@
         <title>My Team Multi Page - Homepage</title>
 
         <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-        <link rel="stylesheet" href="CSS/nav.css" />
-        <link rel="stylesheet" href="CSS/style.css" />
-        <link rel="stylesheet" href="CSS/admin.css" />
-        <link rel="stylesheet" href="CSS/cta.css" />
-        <link rel="stylesheet" href="CSS/footer.css" />
+        <link rel="stylesheet" href="./CSS/nav.css" />
+        <link rel="stylesheet" href="./CSS/style.css" />
+        <link rel="stylesheet" href="./CSS/admin.css" />
+        <link rel="stylesheet" href="./CSS/cta.css" />
+        <link rel="stylesheet" href="./CSS/footer.css" />
         <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
 
     </head>
@@ -90,7 +90,8 @@
                   <a href="./index.html" class="mobileMenu__link">home</a>
                   <a href="./about.html" class="mobileMenu__link">about</a>
                   <a href="./admin.html" class="mobileMenu__link">admin</a>
-                  <button class="nav__button">contact us</button>
+                  <button class="nav__button"><a href="./contact.html">contact us</a></button>
+
                 </div>
               </div>
             </div>
@@ -111,15 +112,17 @@
               </p>
             </div>
           </section>
+
+          <!-- Directors -->
           <section class="directors">
             <div class="container directors__container">
                <div class="directors__grid" id="directors__grid">
                   
-                    <button class="director__btn btn--white btn" id="show-modal-btn" onclick="showModal()">
-                        Add new director
-                    </button>
-                    <h3 class="board__of__directors" >BOARD OF DIRECTORS</h3>
-                    <hr class='director__top__line'>
+                  <button class="director__btn btn--white btn" id="show-modal-btn" onclick="showModal()">
+                      Add new director
+                  </button>
+                  <h3 class="board__of__directors" >BOARD OF DIRECTORS</h3>
+                  <hr class='director__top__line'>
                     
                         
                 </div>
@@ -127,18 +130,22 @@
                 </div>
             </div>
           </section>
-            
+          
+          <!-- Call to action-->
           <section class="cta">
             <div class="container cta__container">
               <h2 class="cta__heading">
                 Ready to get started?
               </h2>
               <button class="cta__btn btn--dark btn">
-                contact us
+                <a href='./contact.html'>
+                  contact us
+                </a>
               </button>
             </div>
           </section>
 
+          <!-- Footer -->
           <footer>
             <div class="footer__container">
               <img src="./assets/logo.svg" alt="Logo" class="footer__logo" />
@@ -177,9 +184,7 @@
               </p>
             </div>
           </footer>
-        
-        
-        
+          <script src="./scripts/main.js"></script>
         <script src='admin.js'></script>
     </body>
 </html>
